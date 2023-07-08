@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import Login from "@/components/Login";
+import Form from "@/components/Form";
 
 import {
   WhatsappLogo,
@@ -17,8 +17,6 @@ import animateRocket from "../lottie/95296-mobile-orange.json";
 import Logos from "@/components/Logos";
 import Tecnologies from "@/components/Tecnologies";
 
-const title = `text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-l from-[#e44095] to-[#374ff0]`;
-
 export default function Home() {
   return (
     <>
@@ -32,7 +30,7 @@ export default function Home() {
                 <Lottie animationData={animateRocket} />
                 <div>
                   <h1 className="text-5xl font-bold text-white">
-                    Box Office News!
+                    Desenvoledor Web
                   </h1>
 
                   <h1 class="text-6xl font-extrabold text-[#FF4A57] ">
@@ -72,8 +70,8 @@ export default function Home() {
               </div>
               <div>
                 <h1 className="text-3xl font-bold text-white">
-                  Tecnologias mais Modernas para Impulsionar o Sucesso da Sua
-                  Empresa
+                  Tecnologias mais modernas para impulsionar o sucesso da sua
+                  empresa
                 </h1>
                 Em um mundo cada vez mais digital, é essencial que as empresas
                 estejam na vanguarda das tecnologias mais modernas para se
@@ -86,14 +84,14 @@ export default function Home() {
           </section>
 
           <section>
-            <div className="lg:mx-20">
+            <div className="lg:mx-10">
               <div className="ml-5">
-                <h1 className="text-5xl font-bold text-white">
-                  Box Office News!
+                <h1 className="text-5xl font-bold text-white mb-4">
+                  O que posso fazer por você?
                 </h1>
 
                 <h1 class="text-6xl font-extrabold text-[#FF4A57] pb-4 ">
-                  Alguns Serviços
+                  Alguns dos meus Serviços
                 </h1>
               </div>
 
@@ -237,22 +235,27 @@ export default function Home() {
           </section>
 
           <section>
-            <div className="lg:mx-20 mt-10">
-              <h1 className="text-5xl font-bold text-[#2B2D41]">
-                Box Office News!
+            <div className="lg:mx-20 mt-20">
+              <h1 className="text-5xl font-bold text-white mb-4">
+                Desde grandes portais a pequenos sites, conheça um pouco mais
+                ...
               </h1>
 
-              <h1 class="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-l from-[#e44095] to-[#374ff0] ">
-                Tailwind CSS Custom <br />
-                Gradient Text Color
+              <h1 class="text-6xl font-extrabold text-[#FF4A57] ">
+                Alguns projetos que participei
               </h1>
               <Logos />
             </div>
           </section>
 
-          <Login />
-
-          <Footer />
+          <section>
+            <div className="lg:w-1/2 mx-auto my-10">
+              <Form />
+            </div>
+          </section>
+          <footer>
+            <Footer />
+          </footer>
         </div>
 
         <div className="toast toast-end">
