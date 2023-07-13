@@ -29,11 +29,11 @@ export default function Home() {
               <div className="hero-content flex-col lg:flex-row-reverse sm: mx-10">
                 <Lottie animationData={animateRocket} />
                 <div>
-                  <h1 className="text-5xl font-bold text-white">
+                  <h1 className="text-2xl lg:text-5xl font-bold text-white">
                     Desenvoledor Web
                   </h1>
 
-                  <h1 class="text-6xl font-extrabold text-[#FF4A57] ">
+                  <h1 class="text-2xl lg:text-6xl font-extrabold text-[#FF4A57] ">
                     Bem-vindo ao mundo digital!
                   </h1>
 
@@ -64,12 +64,12 @@ export default function Home() {
           </section>
 
           <section>
-            <div className="columns-2 py-20 px-16">
-              <div>
+            <div className="columns-1 lg:columns-2 py-20 px-16">
+              <div className="">
                 <Tecnologies />
               </div>
               <div>
-                <h1 className="text-3xl font-bold text-white">
+                <h1 className="text-2xl lg:text-3xl font-bold text-white">
                   Tecnologias mais modernas para impulsionar o sucesso da sua
                   empresa
                 </h1>
@@ -86,11 +86,11 @@ export default function Home() {
           <section>
             <div className="lg:mx-10">
               <div className="ml-5">
-                <h1 className="text-5xl font-bold text-white mb-4">
+                <h1 className="text-2xl lg:text-5xl font-bold text-white mb-4">
                   O que posso fazer por você?
                 </h1>
 
-                <h1 class="text-6xl font-extrabold text-[#FF4A57] pb-4 ">
+                <h1 class="text-2xl lg:text-6xl font-extrabold text-[#FF4A57] pb-4 ">
                   Alguns dos meus Serviços
                 </h1>
               </div>
@@ -235,13 +235,13 @@ export default function Home() {
           </section>
 
           <section>
-            <div className="lg:mx-20 mt-20">
-              <h1 className="text-5xl font-bold text-white mb-4">
+            <div className="lg:mx-20 mt-20 px-3">
+              <h1 className="text-3xl lg:text-5xl font-bold text-white mb-4">
                 Desde grandes portais a pequenos sites, conheça um pouco mais
                 ...
               </h1>
 
-              <h1 class="text-6xl font-extrabold text-[#FF4A57] ">
+              <h1 class="text-2xl lg:text-6xl font-extrabold text-[#FF4A57] ">
                 Alguns projetos que participei
               </h1>
               <Logos />

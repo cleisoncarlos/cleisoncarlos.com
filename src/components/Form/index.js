@@ -51,7 +51,7 @@ function Form() {
   };
 
   return (
-    <>
+    <div className="px-4">
       <h4 className="text-5xl font-bold text-white">Quer saber mais? </h4>
       <h4 className="text-4xl font-bold"> Entre em contato!</h4>
       <p className="py-6">
@@ -119,7 +119,7 @@ function Form() {
           Enviar mensagem
         </button>
       </form>
-    </>
+    </div>
   );
 }
 
